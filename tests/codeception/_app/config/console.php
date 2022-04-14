@@ -12,7 +12,7 @@ return [
     'extensions' => require(VENDOR_DIR . '/yiisoft/extensions.php'),
     'aliases' => [
         '@vendor' => VENDOR_DIR,
-        '@bedezign/yii2/audit' => realpath(__DIR__ . '../../../../src'),
+        '@dennis-kashirin/yii2/audit' => realpath(__DIR__ . '../../../../src'),
     ],
     'params' => [
         'supportEmail' => 'errors@example.com',

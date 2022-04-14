@@ -79,7 +79,7 @@ if (isset($this->params['jumbotron'])) {
         <hr>
         <?= date('Y-m-d H:i:s'); ?>
         <br>
-        <?= $this->render('@bedezign/yii2/audit/views/_audit_entry_id', ['style' => '']); ?>
+        <?= $this->render('@dennis-kashirin/yii2/audit/views/_audit_entry_id', ['style' => '']); ?>
     </footer>
 </div>
 

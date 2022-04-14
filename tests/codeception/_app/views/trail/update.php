@@ -22,7 +22,7 @@ $this->params['breadcrumbs'][] = Yii::t('app', 'Update');
         </div>
         <div class="col-md-8">
             <h2><?= Yii::t('app', 'Post History'); ?></h2>
-            <?= $this->render('@bedezign/yii2/audit/views/_audit_trails', [
+            <?= $this->render('@dennis-kashirin/yii2/audit/views/_audit_trails', [
                 'query' => $post->getAuditTrails(),
                 'columns' => ['entry_id', 'action', 'diff', 'created'],
             ]); ?>

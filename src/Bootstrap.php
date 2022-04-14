@@ -18,7 +18,7 @@ class Bootstrap implements BootstrapInterface
     public function bootstrap($app)
     {
         // Make sure to register the base folder as alias as well or things like assets won't work anymore
-        \Yii::setAlias('@bedezign/yii2/audit', __DIR__);
+        \Yii::setAlias('@dennis-kashirin/yii2/audit', __DIR__);
 
         if ($app instanceof \yii\console\Application) {
             $app->controllerMap['audit'] = 'bedezign\yii2\audit\commands\AuditController';
@@ -35,7 +35,7 @@ class Bootstrap implements BootstrapInterface
             $app->i18n->translations['audit'] = [
                 'class'          => 'yii\i18n\PhpMessageSource',
                 'sourceLanguage' => 'en',
-                'basePath'       => '@bedezign/yii2/audit/messages',
+                'basePath'       => '@dennis-kashirin/yii2/audit/messages',
             ];
         }
     }

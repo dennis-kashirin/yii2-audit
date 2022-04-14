@@ -14,7 +14,7 @@ class AuditAsset extends AssetBundle
     /**
      * @inheritdoc
      */
-    public $sourcePath = '@bedezign/yii2/audit/web/assets';
+    public $sourcePath = '@dennis-kashirin/yii2/audit/web/assets';
 
     /**
      * @inheritdoc

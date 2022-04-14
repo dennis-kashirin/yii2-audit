@@ -13,7 +13,7 @@ return [
     'aliases' => [
         '@vendor' => VENDOR_DIR,
         '@bower' => VENDOR_DIR . '/bower-asset',
-        '@bedezign/yii2/audit' => realpath(__DIR__ . '../../../../src'),
+        '@dennis-kashirin/yii2/audit' => realpath(__DIR__ . '../../../../src'),
     ],
     'params' => [
         'supportEmail' => 'test@example.com',

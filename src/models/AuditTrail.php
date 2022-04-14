@@ -29,7 +29,7 @@ class AuditTrail extends ActiveRecord
      */
     public static function tableName()
     {
-        return '{{%audit_trail}}';
+        return 'prav.audit_trail';
     }
 
     /**

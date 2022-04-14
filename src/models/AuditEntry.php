@@ -43,7 +43,7 @@ class AuditEntry extends ActiveRecord
      */
     public static function tableName()
     {
-        return '{{%audit_entry}}';
+        return 'prav.audit_entry';
     }
 
     /**

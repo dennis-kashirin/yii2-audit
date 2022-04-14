@@ -27,7 +27,7 @@ class AuditData extends ActiveRecord
      */
     public static function tableName()
     {
-        return '{{%audit_data}}';
+        return 'prav.audit_data';
     }
 
     /**

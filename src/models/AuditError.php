@@ -34,7 +34,7 @@ class AuditError extends ActiveRecord
      */
     public static function tableName()
     {
-        return '{{%audit_error}}';
+        return 'prav.audit_error';
     }
 
     /**

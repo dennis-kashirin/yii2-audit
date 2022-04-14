@@ -1,6 +1,6 @@
 {
-  "name": "bedezign/yii2-audit",
-  "description": "Yii2 Audit records and displays web/cli requests, database changes, php/js errors and associated data.",
+  "name": "dennis-kashirin/yii2-audit",
+  "description": "Yii2 Audit records and displays web/cli requests, database changes, php/js errors and associated data. Adapted fot Postgresql.",
   "keywords": [
     "yii2",
     "audit",
@@ -24,6 +24,11 @@
       "name": "Marc Hollander",
       "homepage": "http://maruc.nl/",
       "email": "marchollander@gmail.com"
+    },
+    {
+      "name": "Dennis Kashirin",
+      "homepage": "http://iskr-a.com/",
+      "email": "xdennix@gmail.com"
     }
   ],
   "require": {
